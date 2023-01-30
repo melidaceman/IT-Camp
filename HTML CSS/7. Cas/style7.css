@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(248, 251, 251);
+}
+h1 {
+  background-color: rgb(163, 246, 246);
+  text-decoration: dotted;
+  font-style: italic;
+}
+
+.first {
+  background-color: rgb(110, 227, 238);
+  text-align: center;
+  text-decoration: double;
+  font-style: italic;
+}
+.second {
+  background-color: rgb(45, 215, 215);
+  text-align: center;
+  text-decoration: dotted;
+  font-style: unset;
+}
+.third {
+  background-color: rgb(50, 146, 146);
+  text-align: center;
+  text-decoration: wavy;
+  font-style: initial;
+}

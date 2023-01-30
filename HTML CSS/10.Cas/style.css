@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffe4c4;
+  box-sizing: border-box;
+  li: nth of nth-of-type;
+}
+.first {
+  background: #fff56e;
+  height: 300px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg);
+  background-repeat: no-repeat;
+  /* background-size:400px 200px;prva vrednost se odnosi na sirinu,druga na visinu pozadine */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+  background-size: contain;
+}
+
+ul {
+    margin: auto
+    width:500px
+    list-style-position:inside}
+
+  li: nth-of-type(odd) {
+    background-color: red}
+  
+
+
+  li: nth-of-type(even) {
+   background-color: yellow
+  }
+
+  li: :nth-of-type()

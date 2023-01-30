@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(https://i.pinimg.com/originals/b4/be/13/b4be13a067f808b63070b723a0104662.gif);
+  background-position: center;
+  background-size: cover;
+
+  font-family: "times new roman" sans-serif;
+  margin: 100px 20px;
+  align-items: center;
+}
+.main {
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.card-item {
+  background-color: rgb(159, 61, 128);
+  border-radius: 15px;
+
+  box-shadow: 0 14px 14px rgb(45, 7, 45);
+  cursor: pointer;
+  transition: 0.2s;
+  height: 500px;
+}
+.card {
+  background-color: rgb(159, 61, 128);
+
+  width: 350px;
+  height: 500px;
+}
+.card-img {
+  width: 350px;
+  height: 300px;
+}
+.card-content {
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+}
+.card-header {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: "geneva" sans-serif;
+}
+.card-text {
+  font-family: "geneva" sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+}
+.card-btn {
+  width: 100px;
+  height: 25px;
+  margin-top: 15px;
+  background-color: azure;
+  border: none;
+  font-family: "geneva" sans-serif;
+  letter-spacing: 0.3px;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.main:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: rgb(244, 192, 229);
+  box-shadow: 0 10px 15px rgb(41, 10, 41);
+}
+
+.second {
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.scard-item {
+  background-color: rgb(45, 7, 45);
+
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 14px 14px black;
+  cursor: pointer;
+  transition: 0.2s;
+  height: 500px;
+}
+.scard {
+  background-color: rgb(159, 61, 128);
+
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+.scard-img {
+  width: 350px;
+  height: 300px;
+}
+.scard-content {
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.scard-header {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: "geneva" sans-serif;
+}
+.scard-text {
+  font-family: "geneva" sans-serif;
+}
+.scard-btn {
+  width: 100px;
+  height: 25px;
+  margin-top: 15px;
+  background-color: azure;
+  border: none;
+  font-family: "geneva" sans-serif;
+  letter-spacing: 0.3px;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.second:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: rgb(244, 192, 229);
+
+  box-shadow: 0 10px 15px;
+}
+
+.third {
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.card-item {
+  background-color: rgb(159, 61, 128);
+  border-radius: 15px;
+  overflow: auto;
+  box-shadow: 0 14px 14px rgb(45, 7, 45);
+  cursor: pointer;
+  transition: 0.2s;
+  height: 500px;
+}
+.card {
+  background-color: rgb(159, 61, 128);
+
+  width: 350px;
+  height: 500px;
+}
+.card-img {
+  width: 350px;
+  height: 300px;
+}
+.card-content {
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.card-header {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: "geneva" sans-serif;
+}
+.card-text {
+  font-family: "geneva" sans-serif;
+}
+.card-btn {
+  width: 100px;
+  height: 25px;
+  margin-top: 15px;
+
+  background-color: azure;
+  border: none;
+  font-family: "geneva" sans-serif;
+  letter-spacing: 0.3px;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.third:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: rgb(244, 192, 229);
+
+  box-shadow: 0 10px 15px;
+}
+
+.fourth {
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.card-item {
+  background-color: rgb(159, 61, 128);
+
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 14px 14px rgb(45, 7, 45);
+  cursor: pointer;
+  transition: 0.2s;
+  height: 500px;
+}
+.card {
+  background-color: rgb(159, 61, 128);
+
+  width: 350px;
+  height: 500px;
+}
+.card-img {
+  width: 350px;
+  height: 300px;
+  margin-top: 0;
+}
+.card-content {
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.card-header {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: "geneva" sans-serif;
+}
+.card-text {
+  font-family: "geneva" sans-serif;
+}
+.card-btn {
+  width: 100px;
+  height: 25px;
+  margin-top: 15px;
+  background-color: azure;
+  border: none;
+  font-family: "geneva" sans-serif;
+  letter-spacing: 0.3px;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fourth:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: rgb(244, 192, 229);
+
+  box-shadow: 0 10px 15px;
+}
