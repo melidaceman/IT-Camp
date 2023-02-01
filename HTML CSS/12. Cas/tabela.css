@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  align-items: center;
+
+  background-image: url(https://w0.peakpx.com/wallpaper/628/441/HD-wallpaper-light-pink-blue-smoke-plain-blue-background-abstract.jpg);
+
+  background-size: cover;
+}
+nav {
+  float: left;
+  display: inline;
+  background: rgb(255, 255, 255);
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  font-weight: bold;
+  color: rgb(6, 15, 122);
+}
+.img {
+  height: 80px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: rgb(0, 11, 98);
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.head {
+  margin-bottom: 80px;
+}
+.headd {
+  margin-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+.parr {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+a .active,
+a:hover {
+  background: #b0c1e8;
+  transition: 0.5s;
+}
+.card-box {
+  width: 250px;
+  height: 285px;
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  box-shadow: 0 9px 7px 0;
+}
+.img-box {
+  width: 250px;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+}
+.text {
+  width: 250px;
+  padding: 3px;
+  font-size: medium;
+  font-family: "Times New Roman";
+  color: rgb(7, 7, 159);
+}
+.card-box:hover {
+  background: #d8e0f3;
+  transition: 0.5s;
+}
+.img-box:hover {
+  background: #d8e0f3;
+  transition: 0.5s;
+}
+
+.head {
+  padding-top: 118px;
+  text-align: center;
+}
+.par {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.active {
+  text-decoration: none;
+}
