@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(244, 180, 103);
@@ -23,11 +24,12 @@ nav {
 nav ul {
   float: right;
   margin-right: 20px;
+  font-size: large;
 }
 .search {
   margin-right: 200px;
   width: 800px;
-  height: 20px;
+  height: 30px;
   line-height: 80px;
   border-radius: 10px;
   color: rgb(71, 48, 6);
@@ -38,14 +40,14 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: rgb(71, 48, 6);
-  text-shadow: 3px 1px 2px brown;
+  text-shadow: 3px 0 2px brown;
 }
 h3 {
   margin-top: 30px;
   text-align: center;
   font-size: 25px;
   color: rgb(71, 48, 6);
-  text-shadow: 2px 1px 1px brown;
+  text-shadow: 2px 1px 2px brown;
 }
 
 .main {
@@ -69,7 +71,6 @@ h2 {
 }
 
 .text {
-  font-size: large;
   font-weight: 400;
   margin-top: 15px;
 
@@ -80,7 +81,7 @@ button {
   border-radius: 15px;
   margin-left: 550px;
   width: 400px;
-  height: 30px;
+  height: 40px;
   margin-top: 100px;
   box-shadow: 0 5px 3px rgb(116, 77, 5);
 }
@@ -90,6 +91,7 @@ i {
 p {
   margin-top: 20px;
   color: rgb(116, 77, 5);
+  font-size: 17px;
 }
 
 .main:hover {
