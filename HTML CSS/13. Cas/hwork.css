@@ -61,6 +61,7 @@ h3 {
   margin-top: 120px;
   border-radius: 15px;
   box-shadow: 0 9px 7px rgb(116, 77, 5);
+  overflow: auto;
 }
 h2 {
   font-size: 20px;
