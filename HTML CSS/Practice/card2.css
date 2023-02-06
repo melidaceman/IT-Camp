@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.main {
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+  background-color: rgb(251, 241, 228);
+  margin-left: 20px;
+  margin-right: 80px;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.main img {
+  width: 400px;
+  height: 200px;
+}
