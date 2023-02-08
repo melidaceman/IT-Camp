@@ -1,24 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 * {
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: white;
+  background-color: rgb(111, 161, 119);
 }
 
 .main {
   width: 400px;
-  height: 450px;
+  height: 520px;
   display: inline-block;
   background-color: rgb(251, 241, 228);
-  margin-left: 20px;
-  margin-right: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
   overflow: hidden;
   margin-top: 100px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 8px rgba(69, 24, 24, 0.7);
+  font-family: "Kalam", cursive;
+
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-family: ;
+}
+p {
+  text-align: center;
 }
 .main img {
+  width: 400px;
+  height: 200px;
+}
+.second {
+  width: 400px;
+  height: 520px;
+  display: inline-block;
+  background-color: rgb(251, 241, 228);
+  margin-left: 200px;
+  margin-right: 50px;
+  overflow: hidden;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 8px rgba(69, 24, 24, 0.7);
+  font-family: "Kalam", cursive;
+  cursor: pointer;
+}
+
+.second img {
   width: 400px;
   height: 200px;
 }
