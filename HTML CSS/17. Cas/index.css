@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Zeyada", cursive;
+}
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(236, 196, 135);
+  position: relative;
+}
+.header img {
+  width: 5vw;
+
+  height: 10vh;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.links {
+  float: right;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
+a {
+  font-size: 22px;
+  margin: 10px;
+  background-color: rgb(225, 154, 47);
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(8, 8, 62);
+}
+
+a:hover {
+  background-color: rgb(153, 153, 226);
+  color: rgb(56, 168, 97);
+}
+
+/* a:visited {
+  color: red;
+} */
+a:active {
+  color: rgb(157, 84, 84);
+}
+p {
+  font-size: larger;
+  line-height: 35px;
+}
+.tt {
+  text-align: center;
+  font-size: 60px;
+  color: red;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 100px;
+  margin-left: 50%;
+}
+button {
+  background-color: yellow;
+  color: orangered;
+  padding: 12px;
+  border: 1px solid orangered;
+  border-radius: 6px;
+  cursor: pointer;
+  /* cursor: default;  */
+}
