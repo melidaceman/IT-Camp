@@ -52,12 +52,11 @@ body {
   font-family: "geneva" sans-serif;
   font-size: 15px;
   text-align: justify;
-  padding: 20px;
 }
 .card-btn {
   width: 100px;
   height: 25px;
-  margin-top: 15px;
+
   background-color: azure;
   border: none;
   font-family: "geneva" sans-serif;
@@ -119,7 +118,7 @@ body {
 .scard-btn {
   width: 100px;
   height: 25px;
-  margin-top: 15px;
+
   background-color: azure;
   border: none;
   font-family: "geneva" sans-serif;
@@ -180,8 +179,7 @@ body {
 .card-btn {
   width: 100px;
   height: 25px;
-  margin-top: 15px;
-
+  margin-top: 35px;
   background-color: azure;
   border: none;
   font-family: "geneva" sans-serif;
@@ -244,7 +242,7 @@ body {
 .card-btn {
   width: 100px;
   height: 25px;
-  margin-top: 15px;
+  margin-top: 25px;
   background-color: azure;
   border: none;
   font-family: "geneva" sans-serif;
@@ -252,6 +250,7 @@ body {
   color: black;
   font-weight: 600;
   font-style: italic;
+  display: inline;
 }
 
 .fourth:hover {
