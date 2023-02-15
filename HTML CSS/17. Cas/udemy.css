@@ -24,7 +24,7 @@
 .sea {
   position: absolute;
 
-  left: 240px;
+  left: 270px;
   top: 25px;
   z-index: 5;
   font-size: 18px;
@@ -46,6 +46,9 @@ input {
   height: 50px;
   border-radius: 30px;
   padding-left: 30px;
+}
+.header input {
+  margin-left: 35px;
 }
 .main img {
   width: 35%;
@@ -115,7 +118,10 @@ button {
   text-align: center;
   margin-top: 20px;
 }
-
+.card-box1 a {
+  color: blueviolet;
+  font-weight: bold;
+}
 .card-box1 {
   width: 30%;
   height: 150px;
@@ -139,7 +145,7 @@ a {
   font-size: 60px;
   position: absolute;
   bottom: 110px;
-  left: 300px;
+  left: 320px;
 }
 .topic {
   margin-left: 300px;
