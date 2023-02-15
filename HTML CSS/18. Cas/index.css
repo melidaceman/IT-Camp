@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 15vh;
+  background-color: rgb(86, 86, 197);
+  position: relative;
+  border-bottom: 2px solid grey;
+}
+header img {
+  width: 200px;
+  height: 100px;
+  margin: 10px 40px 20px 20px;
+  margin-right: 40px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+header input {
+  width: 700px;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 30px;
+  margin: 0px 60px;
+}
+header a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+header div {
+  display: inline-block;
+  margin-left: 60px;
+}
+.icon {
+  font-size: 20px;
+  margin-left: 40px;
+}
+header a,
+header input,
+header div {
+  position: relative;
+  bottom: 50px;
+}
+.lupa {
+  position: absolute;
+  bottom: 25px;
+  left: 440px;
+  z-index: 5;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.main {
+  background-color: aqua;
+  width: 70%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.main-text {
+  float: left;
+  background-color: antiquewhite;
+  width: 300px;
+  height: 150px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.card {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(183, 148, 216);
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  overflow: auto;
+}
+.cards-main {
+  width: 80%;
+
+  margin: auto;
+}
