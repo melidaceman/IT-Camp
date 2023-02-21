@@ -97,7 +97,7 @@ h3 {
   background-color: #fdfffe;
   margin-top: 100px;
   display: flex;
-  gap: 15px;
+  gap: 30px;
   place-content: center;
 }
 .child {
@@ -188,4 +188,12 @@ footer:hover .roll {
   visibility: visible;
 
   transition-delay: 1.5s;
+}
+
+audio {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 100px;
+  right: 0;
 }
