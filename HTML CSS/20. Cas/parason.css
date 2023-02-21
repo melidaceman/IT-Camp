@@ -90,3 +90,102 @@ h3 {
   margin-left: 120px;
   margin-top: 30px;
 }
+
+.parent {
+  width: 100%;
+  height: 100vh;
+  background-color: #fdfffe;
+  margin-top: 100px;
+  display: flex;
+  gap: 15px;
+  place-content: center;
+}
+.child {
+  width: 20%;
+  height: 70vh;
+  background-color: #f4f5f7;
+  font-size: 14px;
+  transition: 1.5s;
+}
+.child:hover {
+  transform: scaleY(1.1);
+}
+
+.rig {
+  color: rgb(22, 128, 22);
+  font-size: small;
+}
+.symbol {
+  color: red;
+  font-size: small;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.sentence {
+  text-align: center;
+}
+.nu {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+hr {
+  color: rgb(152, 148, 148);
+  margin-top: 20px;
+}
+input {
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 90px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px 3px #4f4e4e;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #383564;
+  margin-top: 200px;
+  display: flex;
+}
+
+.circle {
+  background-color: #f4f5f7;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(25px 25px, circle, red, #000);
+  background: -moz-radial-gradient(25px 25px, circle, red, #000);
+  background: radial-gradient(25px 25px, circle, red, #000);
+  transition: 3s ease-in-out;
+}
+.roll {
+  background-color: #383564;
+
+  color: rgb(176, 34, 34);
+  margin-top: 150px;
+  margin-left: 400px;
+  transition: 3s ease-in-out;
+
+  visibility: hidden;
+}
+footer:hover .circle {
+  transform: translateX(658%);
+}
+footer:hover .roll {
+  visibility: visible;
+
+  transition-delay: 1.5s;
+}
