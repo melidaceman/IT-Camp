@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: beige;
+  width: 500px;
+  height: 500px;
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(201, 91, 91);
+}
+.parent:hover .child {
+  /* background-color: rgb(116, 116, 249); */
+  /* animation: top-to-bottom 1.3s ease-in 0.5s forwards 3 alternate; */
+  animation: top-to-bottom 2s ease-in 0.5s forwards infinite alternate;
+  /* animation-play-state: paused; */
+  /* Paused koristimo kada zelimo da pauziramo animaciju. */
+}
+/* Forwards unutar Animation koristimo kada zelimo da se animacija ne vraca nazad */
+/* Backwards unutar Animation koristimo kada zelimo da se animacija vraca nazad */
+/* Br 3. unutar Animation,oznacava broj ponavljanja animacije,a ako dopisemo alternate,znaci da se animacija vrsi napred-nazad,i to je sve ubrojano u broj ponavljanja. */
+/* Infinite,oznacava da se animacija ponavlja beskonacan br puta. */
+/* Alternate oznacava da se animacija vraca istom putanjom nazad. */
+
+@keyframes top-to-bottom {
+  0% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateX(100%);
+    background: #ffa686;
+  }
+  50% {
+    transform: translate(50%, 50%);
+    background: #cebc58;
+  }
+  66% {
+    transform: translate(100%, 100%);
+    background: #ff7525;
+  }
+  100% {
+    /* transform: translateX(100%);
+    transform: translateY(100%); */
+    transform: translate(0%, 100%);
+    background: #ff2525;
+  }
+}
