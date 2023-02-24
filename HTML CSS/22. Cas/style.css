@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(183, 239, 239);
+}
+
+.main-header {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  /* list-style koristimo da uklonimo tacke ispred linkova,odnosno sa liste. */
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(71, 68, 68);
+  font-size: larger;
+  font-weight: 500;
+  background-color: rgb(252, 246, 238);
+  padding: 15px;
+  border-radius: 10px;
+}
+main {
+  min-height: 75vh;
+  /* Ovu komandu koristimo kada imamo mnogo teksta,i ne zelimo da ide ispod footera,vec da se prikaze zajedno sa footerom uz scroll bar. */
+}
+
+footer {
+  background-color: rgb(90, 45, 132);
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Align items mozemo koristiti umesto line height,podesice sadrzaj na sredinu kontejnera. */
+}
