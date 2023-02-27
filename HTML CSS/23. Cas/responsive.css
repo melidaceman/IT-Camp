@@ -214,30 +214,30 @@ audio {
   top: 100px;
   right: 0;
 }
-@media (min-width: 412px) and (max-width: 768px) {
+@media (min-width: 635px) and (max-width: 768px) {
   header {
     width: 100%;
   }
 
   header h1 {
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 22px;
   }
   header a {
     position: relative;
     left: 20px;
     margin: 3px;
-    font-size: 10px;
+    font-size: 15px;
   }
   button {
-    width: 8%;
+    width: 15%;
     height: 3%;
     position: absolute;
-    left: 280px;
-    top: 20px;
+    right: 150px;
+    top: 25px;
   }
   .main {
-    width: 25%;
+    width: 35%;
     height: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -253,48 +253,48 @@ audio {
     margin-top: 20px;
   }
   .second img {
-    width: 20%;
+    width: 50%;
 
-    height: 53%;
-    margin-left: 210px;
+    height: 58%;
+    margin-left: 250px;
   }
   .icon {
-    font-size: 11px;
-    margin-left: 35px;
+    font-size: 15px;
+    margin-left: 40px;
     margin-top: 10px;
   }
   .parent {
     width: 100%;
     justify-content: left;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .child {
-    width: 12%;
-    height: 50%;
+    width: 22%;
+    height: 60%;
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 100px;
   }
   h3 {
-    font-size: 12px;
+    font-size: 15px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 20px;
   }
   h4 {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
   }
   .nu {
-    font-size: 22px;
+    font-size: 35px;
     margin-top: 10px;
   }
 
   .sentence {
-    font-size: 10px;
+    font-size: 13px;
     margin-left: 2px;
     margin-bottom: 1px;
   }
@@ -303,17 +303,17 @@ audio {
   }
   input {
     width: auto;
-    height: auto;
+
     margin: auto;
-    margin-left: 13px;
-    margin-top: 8px;
+    margin-left: 30px;
+    margin-top: 50px;
   }
 
   footer {
     width: 100%;
   }
   .circle {
-    margin-top: 18%;
+    margin-top: 22%;
     width: 60px;
     height: 60px;
   }
@@ -321,21 +321,21 @@ audio {
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 54%;
+    right: 100px;
   }
   .roll {
-    margin-left: 10px;
+    margin-left: 50px;
   }
   footer:hover .circle {
-    transform: translateX(500%);
+    transform: translateX(790%);
   }
   footer:hover .ball {
-    transform: translateX(-500%);
+    transform: translateX(-790%);
   }
   audio {
     position: absolute;
     top: 10%;
-    right: 55%;
+    right: 17%;
   }
 }
 
