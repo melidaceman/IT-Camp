@@ -313,6 +313,7 @@ audio {
     width: 100%;
   }
   .circle {
+    margin-top: 18%;
     width: 60px;
     height: 60px;
   }
@@ -320,15 +321,145 @@ audio {
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 53%;
+    right: 54%;
   }
   .roll {
     margin-left: 10px;
   }
   footer:hover .circle {
-    transform: translateX(100%);
+    transform: translateX(500%);
   }
   footer:hover .ball {
-    transform: translateX(-100%);
+    transform: translateX(-500%);
+  }
+  audio {
+    position: absolute;
+    top: 10%;
+    right: 55%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 535px) {
+  header {
+    width: 100%;
+  }
+
+  header h1 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  header a {
+    position: relative;
+    left: 20px;
+    margin: 3px;
+    font-size: 10px;
+  }
+  button {
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    left: 280px;
+    top: 20px;
+  }
+  .main {
+    width: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-left: 20px;
+  }
+  .box,
+  .type {
+    width: 42%;
+  }
+  .box {
+    margin-top: 20px;
+  }
+  .second img {
+    width: 70%;
+
+    height: 80%;
+    margin-left: 190px;
+  }
+  .icon {
+    font-size: 11px;
+    margin-left: 27px;
+    margin-top: 10px;
+  }
+  .parent {
+    width: 100%;
+    justify-content: left;
+    margin-left: 22px;
+  }
+  .child {
+    width: 25%;
+    height: 70%;
+  }
+
+  p {
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .nu {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .sentence {
+    font-size: 10px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+  }
+  hr {
+    margin-top: auto;
+  }
+  input {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 13px;
+    margin-top: 15px;
+  }
+
+  footer {
+    width: 100%;
+  }
+  .circle {
+    margin-top: 35%;
+    width: 60px;
+    height: 60px;
+  }
+  .ball {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+  }
+  .roll {
+    margin-left: 5px;
+  }
+  footer:hover .circle {
+    transform: translateX(530%);
+  }
+  footer:hover .ball {
+    transform: translateX(-530%);
+  }
+  audio {
+    position: absolute;
+    top: 15%;
+    right: 0;
   }
 }
