@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fdfffe;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #383564;
+}
+header h1 {
+  line-height: 80px;
+  float: left;
+  margin-left: 150px;
+  color: white;
+}
+header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  line-height: 80px;
+  position: relative;
+  left: 500px;
+  margin: 25px;
+  cursor: pointer;
+}
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  right: 150px;
+  top: 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 5px 10px 5px #23213a;
+}
+
+.main {
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.type {
+  width: 250px;
+  height: 240px;
+  background-color: #f4f5f7;
+  cursor: pointer;
+}
+.box {
+  width: 250px;
+  height: 240px;
+  background-color: #f4f5f7;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.second {
+  flex-basis: 40%;
+  height: 80vh;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  cursor: pointer;
+}
+.type,
+.box,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3,
+p {
+  text-align: center;
+  padding: 10px;
+}
+h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.icon {
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.parent {
+  width: 100%;
+  height: 100vh;
+  background-color: #fdfffe;
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  place-content: center;
+}
+.child {
+  width: 20%;
+  height: 70vh;
+  background-color: #f4f5f7;
+  font-size: 14px;
+  transition: 1.5s;
+}
+.child:hover {
+  transform: scaleY(1.1);
+}
+
+.rig {
+  color: rgb(22, 128, 22);
+  font-size: small;
+}
+.symbol {
+  color: red;
+  font-size: small;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.sentence {
+  text-align: center;
+}
+.nu {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+hr {
+  color: rgb(152, 148, 148);
+  margin-top: 20px;
+}
+input {
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 90px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px 3px #4f4e4e;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #383564;
+  margin-top: 200px;
+  display: flex;
+}
+
+.circle {
+  background-color: #f4f5f7;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(25px 25px, circle, red, #000);
+  background: -moz-radial-gradient(25px 25px, circle, red, #000);
+  background: radial-gradient(25px 25px, circle, red, #000);
+  transition: 3s ease-in;
+}
+
+.ball {
+  background-color: #f4f5f7;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+
+  background: -webkit-radial-gradient(25px 25px, circle, red, #000);
+  background: -moz-radial-gradient(25px 25px, circle, red, #000);
+  background: radial-gradient(25px 25px, circle, red, #000);
+  transition: 3s ease-out;
+}
+.roll {
+  background-color: #383564;
+
+  color: rgb(176, 34, 34);
+  margin-top: 150px;
+  margin-left: 400px;
+  transition: 3s ease-in-out;
+
+  visibility: hidden;
+}
+footer:hover .circle {
+  transform: translateX(658%);
+}
+footer:hover .ball {
+  transform: translateX(-658%);
+}
+footer:hover .roll {
+  visibility: visible;
+
+  transition-delay: 1.5s;
+}
+
+audio {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+@media (min-width: 412px) and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  header h1 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  header a {
+    position: relative;
+    left: 20px;
+    margin: 3px;
+    font-size: 10px;
+  }
+  button {
+    width: 8%;
+    height: 3%;
+
+    position: absolute;
+    left: 280px;
+  }
+  .main {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 20px;
+  }
+  .box,
+  .type {
+    width: 42%;
+  }
+
+  .second img {
+    width: 40%;
+
+    height: 57%;
+    margin-left: 270px;
+  }
+  .icon {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .parent {
+    width: 100%;
+    justify-content: left;
+    margin-left: 30px;
+  }
+  .child {
+    width: 19%;
+    height: 72vh;
+  }
+
+  p {
+    font-size: 13px;
+    margin-bottom: 100px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .nu {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  hr {
+    margin-bottom: 60px;
+  }
+  .sentence {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  input {
+    margin: auto;
+    margin-left: 12px;
+  }
+  footer {
+    width: 100%;
+  }
+  .roll {
+    margin-left: 50px;
+  }
+  footer:hover .circle {
+    transform: translateX(100%);
+  }
+  footer:hover .ball {
+    transform: translateX(-100%);
+  }
+}
