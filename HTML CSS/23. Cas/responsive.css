@@ -232,15 +232,16 @@ audio {
   button {
     width: 8%;
     height: 3%;
-
     position: absolute;
     left: 280px;
+    top: 20px;
   }
   .main {
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 
     margin-left: 20px;
   }
@@ -248,63 +249,81 @@ audio {
   .type {
     width: 42%;
   }
-
+  .box {
+    margin-top: 20px;
+  }
   .second img {
-    width: 40%;
+    width: 20%;
 
-    height: 57%;
-    margin-left: 270px;
+    height: 53%;
+    margin-left: 210px;
   }
   .icon {
-    font-size: 14px;
-    margin-left: 40px;
+    font-size: 11px;
+    margin-left: 35px;
     margin-top: 10px;
   }
   .parent {
     width: 100%;
     justify-content: left;
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .child {
-    width: 19%;
-    height: 72vh;
+    width: 12%;
+    height: 50%;
   }
 
   p {
-    font-size: 13px;
+    font-size: 10px;
     margin-bottom: 100px;
   }
   h3 {
-    font-size: 15px;
+    font-size: 12px;
   }
   h2 {
-    font-size: 22px;
+    font-size: 15px;
     margin-top: 20px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 10px;
   }
   .nu {
-    font-size: 40px;
+    font-size: 22px;
     margin-top: 10px;
   }
-  hr {
-    margin-bottom: 60px;
-  }
+
   .sentence {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+  }
+  hr {
+    margin-top: auto;
   }
   input {
+    width: auto;
+    height: auto;
     margin: auto;
-    margin-left: 12px;
+    margin-left: 13px;
+    margin-top: 8px;
   }
+
   footer {
     width: 100%;
   }
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+  .ball {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 53%;
+  }
   .roll {
-    margin-left: 50px;
+    margin-left: 10px;
   }
   footer:hover .circle {
     transform: translateX(100%);
