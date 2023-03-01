@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 800px;
+  /* height: 1000px; */
+  background-color: blueviolet;
+  display: grid;
+
+  grid-template-columns: repeat(3, 200px);
+
+  grid-auto-rows: minmax(180px, auto);
+
+  grid-gap: 20px;
+}
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.first {
+  background-color: rgb(219, 219, 86);
+  /* Spajanje kolona preko 2 css svojstva: */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+
+  /* Spajanje kolona preko 1 css svojstva: */
+  grid-column: 1/3;
+}
+.second {
+  background-color: rgb(76, 196, 196);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.third {
+  background-color: rgb(69, 69, 209);
+}
+.fourth {
+  background-color: rgb(155, 37, 37);
+}
+.fifth {
+  background-color: chocolate;
+
+  /* Spajanje kolona (ukljucujuci poslednju) moze se izvrsiti preko indeksa -1 */
+  grid-column: 1/-1;
+  /* grid column:1/4 (da bi cela kolona bila jedna celina), a 1/-1 daje isti rezultat. */
+}
+.sixth {
+  background-color: crimson;
+  /* Spajanje redova i kolona se moze izvrsiti i preko span {number} sintakse na sledeci nacin: */
+  grid-column: span 2;
+}
+.seventh {
+  background-color: deeppink;
+}

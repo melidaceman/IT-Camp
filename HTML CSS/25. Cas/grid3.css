@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 800px;
+  height: 700px;
+  background-color: blueviolet;
+  display: grid;
+
+  grid-template-columns: repeat(3, 200px);
+
+  grid-auto-rows: minmax(180px, auto);
+
+  grid-gap: 20px;
+
+  /* Horizontalno poravnanje: */
+  /* justify-content: center; */
+  /* justify-content: end;  Ne koristiti flex-end (prefix flex) */
+  justify-content: space-around;
+
+  /* Vertikalno poravnanje: Za vert.vnanje ne treba visina elementa. */
+
+  /* align-content: end; */
+  align-content: space-between;
+
+  justify-items: center;
+  /* Odnosi se na sirinu kontejnera. Tj,na text (brisemo suvisnu sirinu)*/
+
+  align-items: center;
+  /* Odnosi se na visinu kontejnera,tj brise se suvisna visina. */
+}
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.first {
+  background-color: rgb(219, 219, 86);
+}
+.second {
+  background-color: rgb(76, 196, 196);
+  height: 180px;
+  width: 200px;
+}
+
+.third {
+  background-color: rgb(69, 69, 209);
+}
+.fourth {
+  background-color: rgb(155, 37, 37);
+}
+.fifth {
+  background-color: chocolate;
+}
+.sixth {
+  background-color: crimson;
+}
+.seventh {
+  background-color: deeppink;
+}
