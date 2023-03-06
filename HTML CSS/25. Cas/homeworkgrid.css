@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.site {
+  width: 100%;
+  display: grid;
+  /* Koliko cemo imati kolona: */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 7vh 7vh 20vh 300px 300px;
+  /* grid-auto-rows: 200px; */
+  grid-gap: 5px;
+}
+.header1 {
+  background-color: rgb(255, 255, 255);
+  grid-column: 1/-1;
+}
+.header2 {
+  width: 100%;
+  height: 70px;
+  background-color: #3d195b;
+  grid-column: 1/-1;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+section {
+  background-color: rgb(255, 255, 255);
+  grid-column: 1/-1;
+  margin-bottom: 200px;
+}
+.sec1 {
+  width: 100%;
+  height: 180px;
+  margin-top: 100px;
+  background-color: #3d195b;
+  display: flex;
+}
+.sec1 p {
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+input {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 150px;
+  opacity: 0.1;
+}
+.glass {
+  position: absolute;
+  top: 300px;
+  left: 870px;
+  font-size: larger;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+.glass:hover {
+  background-color: rgb(169, 49, 73);
+  border-radius: 50px;
+}
+button {
+  width: 80px;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+.card {
+  background-color: crimson;
+  width: 250px;
+  height: 300px;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: 250px;
+  overflow: hidden;
+}
+.card img {
+  width: 250px;
+  height: 150px;
+  transition: 1s;
+}
+
+.header1 img {
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+
+  margin-left: 30px;
+}
+.header1 a {
+  margin-left: 180px;
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+.card1 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: relative;
+  top: -40px;
+  left: 80px;
+}
+p {
+  color: white;
+  margin-left: 70px;
+  margin-top: 8px;
+}
+h3 {
+  color: white;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+h2 {
+  color: white;
+  margin-left: 70px;
+  margin-top: -25px;
+}
+
+.icon {
+  color: white;
+}
+.header2 img {
+  width: 120px;
+  height: 130px;
+  border-radius: 0px 250px 250px 0;
+}
+.header2 a {
+  position: relative;
+  bottom: 80px;
+  left: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.header1 img:hover {
+  transform: scale(1.3);
+}
