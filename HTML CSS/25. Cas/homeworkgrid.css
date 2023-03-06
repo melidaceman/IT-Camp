@@ -49,13 +49,18 @@ input {
   border-radius: 10px;
   margin-top: 70px;
   margin-left: 150px;
+<<<<<<< HEAD
   opacity: 0.1;
+=======
+  background-color: #321649;
+>>>>>>> 899a58ede387428cfb4dc601542ea8982394db94
 }
 .glass {
   position: absolute;
   top: 300px;
   left: 870px;
   font-size: larger;
+<<<<<<< HEAD
   border-radius: 50px;
   color: white;
   cursor: pointer;
@@ -63,6 +68,9 @@ input {
 .glass:hover {
   background-color: rgb(169, 49, 73);
   border-radius: 50px;
+=======
+  color: white;
+>>>>>>> 899a58ede387428cfb4dc601542ea8982394db94
 }
 button {
   width: 80px;
@@ -97,11 +105,19 @@ button {
 }
 .header1 a {
   margin-left: 180px;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 899a58ede387428cfb4dc601542ea8982394db94
   text-decoration: none;
   color: gray;
   text-transform: uppercase;
   font-size: small;
   font-weight: bold;
+<<<<<<< HEAD
+=======
+  m
+>>>>>>> 899a58ede387428cfb4dc601542ea8982394db94
 }
 .card1 img {
   width: 70px;
