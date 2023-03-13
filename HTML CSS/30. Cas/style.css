@@ -92,14 +92,17 @@ footer {
   font-size: 18px;
   padding: 10px;
   border-radius: 50px;
-  background-color: rgb(171, 168, 168);
+  background-color: rgb(190, 188, 188);
 }
 .design {
   margin-bottom: 20px;
 }
 .arrow {
-  font-size: 20px;
-  padding: 13px;
+  width: 40px;
+  height: 40px;
+  font-size: larger;
+  padding: 12px;
+
   background-color: #3d71e0;
   color: white;
   border-radius: 50%;
@@ -110,5 +113,4 @@ footer {
 }
 .copy a {
   text-decoration: none;
-  color: black;
 }
