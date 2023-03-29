@@ -3,7 +3,7 @@
 // Postoji 6 vrsta operatora u JS:
 
 // 1. Aritmeticki operatori;
-// 2. Operatori dodele vrednot=sti;
+// 2. Operatori dodele vrednosti;
 // 3. String operatori
 // 4. Operatori poredjenja;
 // 5. Logicki operatori;
@@ -100,3 +100,69 @@ console.log(5 * "string");
 console.log(typeof (5 * "string"));
 // NaN je broj cija vrednost nije korektna.
 // Tip NaN je number
+
+// 4. Operatori poredjenja:
+
+// == Proverava da li su jednake vrednosti dve strane (leve i desne):
+
+console.log(5 == 5);
+console.log(5 == "5"); //imaju istu vrednost, ali im je razlicit tip
+console.log("leva" == "desna");
+
+// === Proverava jednakost tipa i vrednosti dve strane.
+
+console.log(5 === "5");
+console.log(10 === 10);
+
+// != Proverava razlicitost leve i desne strane.
+
+console.log(5 != "5");
+console.log(5 != 4);
+
+// !== Proverava razlicitost tipa ili vrednosti leve i desne strane.
+
+console.log(5 !== "5");
+console.log("sreda" !== "Sreda"); //isti tip ali nije ista vrednost
+
+//  > vece
+console.log(4 > 6);
+
+// < manje
+console.log(4 < 6);
+
+// >= vece ili jednako
+console.log(5 >= 5);
+
+// <= manje ili jednako
+console.log(7 <= 19);
+
+// ? Ternary operator
+
+const isSunny = false;
+const doINeedSunGlasses = isSunny ? "Da" : "Ne";
+console.log(doINeedSunGlasses);
+
+// 5. Logicki operatori:
+
+// && logicko i => Kada moraju biti zadovoljeni svi poduslovi.
+console.log(5 === "5" && 4 <= 6); // false
+console.log(5 == "5" && 4 <= 6); // true
+
+//  || logicko ili => Kada je dovoljno da bar jedan uslov bude zadovoljen.
+console.log(5 === "5" || "sreda" === "Sreda"); // false (nije zadovoljen ni prvi ni drugi poduslov)
+console.log(5 == "5" || "sreda" === "Sreda"); // prvi uslov je zadovoljen i imamo **true
+
+//  ! logicko not => Vraca boolean. Koji ce da bude suprotne vrednosti od promenljive.
+console.log(!isSunny);
+
+// 6. Tipovni operatori:
+
+// typeof => Operator za ispitivanje tipa promenljive.
+console.log(typeof 123);
+
+// instanceof =>  Operator za ispitivanje da li neka promenljiva pripada odredjenom tipu.
+
+console.log(123 instanceof Object);
+
+console.log(typeof [1, 2, 3]); //vraca object
+console.log([1, 2, 3] instanceof Array);
