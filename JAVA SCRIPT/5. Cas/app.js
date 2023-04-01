@@ -1,4 +1,4 @@
-// Za komunikacijus sa korisnikom koristimo prompt metodu:
+// Za komunikaciju sa korisnikom koristimo prompt metodu:
 
 const ime = prompt("Unesite vase ime:");
 

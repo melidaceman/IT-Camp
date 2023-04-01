@@ -15,7 +15,8 @@
 // }
 
 //  break keyword daje naredbu prestanka switch naredbe.
-// break se ne sme izostaviti na kraju nekog slucaja (sem zadnjeg).
+// break se ne sme izostaviti na kraju nekog
+// slucaja (sem zadnjeg).
 // Ako izostavimo break u slucaju koji je zadovoljen,izvrsice se i sledeci slucaj koji nije zadovoljen.
 
 // Korisnik unosi broj:
