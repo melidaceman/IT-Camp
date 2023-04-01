@@ -6,6 +6,8 @@ if (brojGodina < 12) {
   console.log("Vi ste maloletni");
 } else if (brojGodina >= 18 && brojGodina < 40) {
   console.log("Vi ste punoletni");
-} else if (brojGodina >= 40) {
+}
+// } else if (brojGodina >= 40)
+else {
   console.log("Vi ste zrela osoba");
 }
