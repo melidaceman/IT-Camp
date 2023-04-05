@@ -25,12 +25,18 @@
 // 4.
 // Suma prirodnih neparnih brojeva 10-20:
 
-let suma = 0;
-for (let i = 10; i <= 20; i++) {
+// let suma = 0;
+// for (let i = 10; i <= 20; i++) {
+//   if (i % 2 != 0) {
+//     suma += i;
+//   }
+//   {
+//     console.log(suma);
+//   }
+// }
+
+for (let i = 10; i <= 20; i += 2) {
   if (i % 2 != 0) {
-    suma += i;
-  }
-  {
-    console.log(suma);
+    console.log(i);
   }
 }
