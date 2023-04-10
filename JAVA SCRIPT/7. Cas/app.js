@@ -62,25 +62,25 @@
 // 3.
 
 // Prebrojati i sabrati brojeve deljive sa 5 u intervalu id 1 do n.
-// const n = +prompt("Unesite neki prirodan broj:");
-// let suma = 0;
-// let brojBrojeva = 0;
-// for (i = 1; i < n; i++) {
-//   if (i % 5 === 0) {
-//     suma += i;
-//     brojBrojeva += 1;
-//   }
-// }
-// console.log(suma);
-// console.log(brojBrojeva);
+const n = +prompt("Unesite neki prirodan broj:");
+let suma = 0;
+let brojBrojeva = 0;
+for (i = 1; i < n; i++) {
+  if (i % 5 === 0) {
+    suma += i;
+    brojBrojeva += 1;
+  }
+}
+console.log(suma);
+console.log(brojBrojeva);
 
 // 1. Neka se izvrsi iteracija od broja 99 do -99.
 // Ispisati zbir brojeva deljivog sa 4 i broja 14.
 
 // Ispisuje brojeve 10-1:
-for (let i = 10; i >= 1; i--) {
-  console.log(i);
-}
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
 
 // 2. Izracunati aritmeeticku sredinu brojeva koji su deljivi sa 3.
 // Iteracija se vrsi od 3 do 17.
