@@ -9,30 +9,32 @@
 // 2. Izracunati aritmeticku sredinu brojeva koji su deljivi sa 3.
 // Iteracija se vrsi od 3 do 17.
 
-// Resenja:
-// 1.
+// // 1. Neka se izvrsi iteracija od broja 99 do -99.
+// Ispisati zbir brojeva deljivog sa 4 i broja 14.
 
-// zbir = 0;
-// for (let i = 99; i >= -99; i--) {
-//   if (i % 4 === 0 && i % 14 === 0) {
-//     zbir += i;
-//   }
-//   {
-//     console.log(zbir);
-//   }
-// }
+zbir = 0;
+for (let i = 99; i >= -99; i--) {
+  if (i % 4 === 0) {
+    zbir += i;
+  }
+  {
+    console.log(zbir + 14);
+  }
+}
 
-// 2.
+// 2. Izracunati aritmeticku sredinu brojeva koji su deljivi sa 3.
+// Iteracija se vrsi od 3 do 17.
+
 // suma = 0;
 // br = 0;
-// sredina = 0;
+
 // for (let i = 3; i <= 17; i++) {
 //   if (i % 3 === 0) {
 //     suma += i;
 //     br++;
-//     sredina = suma / br;
 //   }
+
 //   {
-//     console.log(sredina);
+//     console.log(suma / br);
 //   }
 // }

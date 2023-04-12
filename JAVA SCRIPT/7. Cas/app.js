@@ -84,11 +84,3 @@ console.log(brojBrojeva);
 
 // 2. Izracunati aritmeeticku sredinu brojeva koji su deljivi sa 3.
 // Iteracija se vrsi od 3 do 17.
-
-
-a = 0;
-for i from 99 to -99 {
-  if{
-    a = i / 
-  }
-}
