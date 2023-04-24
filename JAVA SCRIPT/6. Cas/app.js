@@ -28,7 +28,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
-// Ispisato brojeve od 1 do 10,izuzev broja 2 i broja 5.
+// Ispisati brojeve od 1 do 10,izuzev broja 2 i broja 5.
 
 for (let i = 1; i < 11; i++) {
   if (i !== 2 && i !== 5) {

@@ -58,7 +58,7 @@ c = Symbol("IT Camp");
 console.log(c);
 console.log(typeof c);
 
-// Svi tipovi podataka koji nisu primitivni su tipq object.
+// Svi tipovi podataka koji nisu primitivni su tipa object.
 // Promenljive koje mogu sadrzati vise (od jedne) vrednosti su referentnog - neprimitivnog tipa.
 
 // 1. Array (niz) - Struktura podataka za skladistenje vise vrednosti (te vrednosti mogu biti razlicitog tipa).
@@ -76,7 +76,7 @@ obj = {
 };
 console.log(obj);
 
-// 3. Set - Struktura podataka za skladistenje vise vrednosti koja ne dozvoljava duplikate. Slicna je nkizu (Array), a sintaksa za pravljenje seta je:
+// 3. Set - Struktura podataka za skladistenje vise vrednosti koja ne dozvoljava duplikate. Slicna je nizu (Array), a sintaksa za pravljenje seta je:
 
 set = new Set(["Asija", "Melida", "Dino", 19, 31, 25, "Dino"]); // Svako novo pojavljivanje elementa u setu se nece primeniti.
 console.log(set);

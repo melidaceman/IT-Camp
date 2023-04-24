@@ -46,7 +46,7 @@ var a; //deklarisanje promenljive (obezbedjivanje lokacijske memorije za promenl
 a = 10; //inicijalizacija promenljive (dodeljivanje vrednosti vec deklarisanoj promenljivoj a)
 // console.log(a);
 
-// Kroz jednu lininju koda mozemo takodje izvrsiti deklaraciju i inicijalizaciju:
+// Kroz jednu liniju koda mozemo takodje izvrsiti deklaraciju i inicijalizaciju:
 var a = 10; //(smesti tu promenljivu u memoriji i dodeli joj vrednost 10)//
 
 // 2. Koriscenjem let rezervisane reci (keyword). Promenljoive koje su sklone menjanju vrednosti.
