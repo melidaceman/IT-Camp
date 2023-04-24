@@ -18,15 +18,15 @@
 
 // 1.Traziti od korisnika da unese neki broj. Na osnovu te vrednosti izvrsiti ispis kvadrata brojeva od 1 do tog unetog broja:
 
-const broj = +prompt("Unesite neki broj: ");
-let i = 1;
-while (i <= broj) {
-  console.log(i ** 2);
-  i++;
-}
 // const broj = +prompt("Unesite neki broj: ");
 // let i = 1;
 // while (i <= broj) {
 //   console.log(i ** 2);
 //   i++;
 // }
+
+// 2. Traziti unos brojeva od korisnika sve dok ne unese nulu:
+let i = 1; //sve sem nule
+while (i !== 0) {
+  i = +prompt("Unesite neki broj: ");
+}
