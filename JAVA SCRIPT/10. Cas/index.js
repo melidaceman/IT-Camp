@@ -7,22 +7,22 @@
 // s - sirina terena u metrima(45 < s < 90)
 // r - rastojanje ograde od terena u metrima (2 < r < 10)
 
-const s = +prompt("Unesite sirinu terena: ");
-const d = +prompt("Unesite duzinu terena: ");
-const r = +prompt("Unesite rastojanje terena");
-if (s < 45 || s > 90) {
-  console.log("Uneli ste neodgovarajucu sirinu.");
-} else if (d < 90 || d > 120) {
-  console.log("Uneli ste neodgovarajucu duzinu.");
-} else if (r < 2 || r > 10) {
-  console.log("Uneli ste neodgovarajuce rastojanje.");
-} else if (isNaN(s) || isNaN(d) || isNaN(r)) {
-  console.log("Uneli ste neodgovarajuce vrednosti.");
-} else {
-  console.log("Uneli ste netacne vrednosti.");
-}
-const duzinaOgrade = 2 * s + 2 * d + 8 * r;
-console.log("Treba nam " + duzinaOgrade + " metara za ogradjivanje terena");
+// const s = +prompt("Unesite sirinu terena: ");
+// const d = +prompt("Unesite duzinu terena: ");
+// const r = +prompt("Unesite rastojanje terena");
+// if (s < 45 || s > 90) {
+//   console.log("Uneli ste neodgovarajucu sirinu.");
+// } else if (d < 90 || d > 120) {
+//   console.log("Uneli ste neodgovarajucu duzinu.");
+// } else if (r < 2 || r > 10) {
+//   console.log("Uneli ste neodgovarajuce rastojanje.");
+// } else if (isNaN(s) || isNaN(d) || isNaN(r)) {
+//   console.log("Uneli ste neodgovarajuce vrednosti.");
+// } else {
+//   console.log("Uneli ste netacne vrednosti.");
+// }
+// const duzinaOgrade = 2 * s + 2 * d + 8 * r;
+// console.log("Treba nam " + duzinaOgrade + " metara za ogradjivanje terena");
 
 // Osnove o stringovima:
 // const recenica = "Necemo matematicke zadatke!";
@@ -54,9 +54,19 @@ console.log("Treba nam " + duzinaOgrade + " metara za ogradjivanje terena");
 
 // if (broj >= 12 && broj <= 16) {
 //   while (broj >= 1) {
-//     console.log(broj ** 2 - 25);
-//     broj--;
+//     console.log(broj);
+//     console.log(broj**2);
+//     console.log(broj-25);
 //   }
 // } else {
 //   console.log("Uneli ste pogresnu vrednost.");
+// }
+
+//2. nacin:
+// const broj = +prompt("Unesi broj 12-16: ");
+// if (isNaN(broj) || broj < 12 || broj >= 16) {
+//   console.log("Uneli ste pogresnu vrednost.");
+// }
+// for (let i = broj; i >= 1; i--) {
+//   console.log(i, i ** 2, i - 25);
 // }
