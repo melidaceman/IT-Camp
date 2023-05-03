@@ -16,6 +16,7 @@
 //   }
 // }
 // console.log(recenica1);
+// const recenica3 = "n sfh dmfh mdhf ";
 // let recenica4 = "";
 // for (let i = 0; i < recenica3.length; i++) {
 //   if (i === 0) {
@@ -28,10 +29,28 @@
 // }
 // console.log(recenica4);
 
+// 3. ovo je prva recenica ispravak
+// const recenica =
+//   " treba nam nova recenica gde ce svaka rec da se zavrsava velikim slovom";
+// let recenica2 = "";
+
+// for (let i = 0; i < recenica.length; i++) {
+//   if (i === recenica.length - 1) {
+//     recenica2 += recenica[i].toUpperCase();
+//   } else if (recenica[i + 1] === " ") {
+//     recenica2 += recenica[i].toUpperCase();
+//   } else {
+//     recenica2 += recenica[i];
+//   }
+// }
+// console.log(recenica2);
+
 // 2.
-let sentence = "Mama ima momu.";
-for (let i = 0; i < sentence.length; i++) {
-  if (sentence[i] === "m") {
-    console.log(sentence[i]);
+const recenica3 = prompt("Unesite neki string:");
+let brojac = 0;
+for (let i = 0; i < recenica3.length; i++) {
+  if (recenica3[i] === "M" || recenica3[i] === "m") {
+    brojac++;
   }
 }
+console.log(brojac);
