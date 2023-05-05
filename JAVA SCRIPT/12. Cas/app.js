@@ -46,13 +46,34 @@
 
 // 1.
 
-const recenica = prompt("Unesite neku recenicu: ");
-let recenica1 = ""; // prazan string
+// const recenica = prompt("Unesite neku recenicu: ");
+// let recenica1 = ""; // prazan string
+// for (let i = 0; i < recenica.length; i++) {
+//   if (recenica[i] === " ") {
+//     //ako je razmak
+//     // ne dodaj nista,zaobidji ga
+//     continue;
+//   } else {
+//     //inace dodaj ..
+//     recenica1 += recenica[i];
+//   }
+// }
+// console.log(recenica1);
+
+// 2. Napraviti novu recenicu gde ce umesto slova "a" pisati slovo "t".
+// Dok,ako se posle slova "a" nalazi slovo "n" pisace "d" umesto "a".
+
+const recenica = prompt("Unesite novu recenicu: ");
+let recenica1 = "";
 for (let i = 0; i < recenica.length; i++) {
-  if (recenica[i] === " ") {
-    continue;
+  if (recenica[i] === "a" && recenica[i + 1] === "n") {
+    recenica1 += "d;";
+  } else if (recenica[i] === "a" || recenica[i] === "A") {
+    recenica1 += "t";
   } else {
     recenica1 += recenica[i];
   }
 }
 console.log(recenica1);
+
+// Uvek treba staviti specificniji uslov (veci uslov,opsirniji) u prvom uslovu,da bi se on prvo izvrsavao.
