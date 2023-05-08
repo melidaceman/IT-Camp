@@ -63,14 +63,14 @@ console.log(zbirBrojeva(10, 5));
 // Dodeljivanje defaultne vrednosti se moze izvrsiti na dva nacina:
 
 // 1.
-function zbirDvaBroja(br1, br2) {
-  if (br2 === undefined) {
-    return br1;
-  } else {
-    return br1 + br2;
-  }
-}
-console.log(zbirDvaBroja(34));
+// function zbirDvaBroja(br1, br2) {
+//   if (br2 === undefined) {
+//     return br1;
+//   } else {
+//     return br1 + br2;
+//   }
+// }
+// console.log(zbirDvaBroja(34));
 
 // 2.
 function zbirDvaBroja2(br1, br2 = 0) {
