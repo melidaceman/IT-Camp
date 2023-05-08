@@ -58,7 +58,7 @@ function zbirBrojeva(a, b) {
 }
 console.log(zbirBrojeva(10, 5));
 
-// Ako zelimo da vidimo je li tacno u konzoli,moramo to premezstiti u console.log dodavanjem jos jednog para zagrada.
+// Ako zelimo da vidimo je li tacno u konzoli,moramo to premestiti u console.log dodavanjem jos jednog para zagrada.
 
 // Dodeljivanje defaultne vrednosti se moze izvrsiti na dva nacina:
 
@@ -81,4 +81,10 @@ console.log(zbirDvaBroja2(15, 12));
 
 // Domaci:
 
-// Napraviti funkciju koja vraca zbir kvadrata dva broja. Ako se izostavi argument,funkcija ga racuna kao 0.
+// 1. Napraviti funkciju koja vraca zbir kvadrata dva broja. Ako se izostavi argument,funkcija ga racuna kao 0.
+
+// 2. Napraviti funkciju koja vraca aritmeticku sredinu 3 broja. Sa defaultnim vrednostima.
+
+// 3.
+
+// 1.
