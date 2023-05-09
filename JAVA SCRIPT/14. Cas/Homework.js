@@ -10,3 +10,5 @@ function userName() {
 }
 userName();
 console.log(userName());
+alert(userName("You have entered the name correctly."));
+alert(userName("You have entered the the wrong value."));
