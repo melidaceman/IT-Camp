@@ -2,7 +2,9 @@
 
 function userName() {
   const name = prompt("Type your name here:");
-  if (name.length > 2 && name.length < 15) {
+  if (name > 0 && name <= 555449988875) {
+    return "You have entered the number.";
+  } else if (name.length > 2 && name.length < 15) {
     return "You have entered the name correctly.";
   } else {
     return "You have entered the wrong value.";
