@@ -1,6 +1,6 @@
 // STRINGOVI //
 // Stringovi su immutable vrednosti.
-// Stringovi suprimitivnog (osnovnog) tipa podatka.
+// Stringovi su primitivnog (osnovnog) tipa podatka.
 
 // Za dobijanje duzine stringa koristimo length metodu:
 let a = "string";
@@ -14,8 +14,7 @@ duzina = a.length;
 
 // 2.
 // Koristeci obicne navodnike:
-"Danas je bilo promenljivo vreme."// 3.
-// Template Literals (Back-Tics sintaksa)
+"Danas je bilo promenljivo vreme."// Template Literals (Back-Tics sintaksa) // 3.
 `Danas je bilo promenljivo vreme.`;
 
 // Dupli navodnici:
