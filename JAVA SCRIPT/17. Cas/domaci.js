@@ -15,6 +15,25 @@ function isPalindrome() {
 }
 console.log(isPalindrome());
 
+// 2. nacin
+
+function palindrom(string) {
+  let obrnutiString = "";
+  for (
+    let i = string.length - 1;
+    i >= 0;
+    i-- // -1 od zadnjeg karaktera (zadnji karakter ima vrednost -1)
+  ) {
+    obrnutiString += string[i];
+  }
+  if (string === obrnutiString) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(palindrom());
+
 // Napisi funkciju koja prima 2 stringa kao argumente i vraca njihovu konkatenaciju.
 // Npr. za ulazne vrednosti "Hello" i "World" funkcija treba da vrati "Hello World"
 
