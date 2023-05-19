@@ -74,9 +74,3 @@ function najduzaRec(string) {
 }
 
 console.log(najduzaRec(recenica));
-
-// Domaci:
-
-// Napraviti funkciju koja uzima neki trocifren broj za argument i vraca zbir cifara tog broja.
-// Npr, za argument 234, rezultat treba biti 9 (2+3+4);
-// Pretvaranje broja u string se vrsi preko toString() metoda.
