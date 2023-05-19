@@ -12,3 +12,26 @@ function getSum(num) {
     }, 0);
 }
 console.log(getSum(256));
+
+// 2. nacin:
+
+function zbirCifara(a) {
+  let jedinica = a % 10; // npr.
+  let desetica = Math.floor((a / 10) % 10);
+  let stotina = Math.floor(a / 100);
+  return jedinica + desetica + stotina;
+}
+console.log(zbirCifara(379));
+
+// 3. nacin:
+
+function zbirCifara2(broj) {
+  const brString = broj.toString();
+  const brNiz = brString.split("");
+  let brojac = 0;
+  for (let i = 0; i < brNiz.length; i++) {
+    brojac += Number(brNiz[i]);  // Number-pretvara string u broj
+  }
+  return brojac;
+}
+console.log(zbirCifara2(379));
